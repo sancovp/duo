@@ -21,7 +21,7 @@ Metaprogrammatic and Programmatic Chains: The workflow utilizes metaprogrammatic
 
 Reification of Implicit Processes: Interestingly, the DUO framework essentially makes explicit and refines the implicit process that occurs whenever an input is provided to an LLM. The input triggers a convergence chain within the LLM, leading to the generation of an output sequence. DUO reconstructs and refines this process, leveraging the implicit entity web and hyperparameters to guide the generation towards a more precise and contextually relevant output.
 
-![flow](https://github.com/sancovp/duo/blob/main/duo_basic_flow.png)
+![flow](https://github.com/sancovp/duo/blob/main/duo.svg)
 
 #### Implications of the DUO Process
 
