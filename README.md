@@ -74,7 +74,7 @@ With DUO:
 Expression: (y \sim p_{\theta}(y|x, (o_{p_1}, o_{a_1}) \ldots (o_{p_n}, o_{a_n}), (a_{p_1}, a_{a_1}) \ldots (a_{p_n}, a_{a_n})))
 Process: Each observation and action is paired with a provider and challenger perspective, enhancing the interaction with the external environment. This not only allows for a richer set of actions and observations to be considered but also introduces a mechanism for evaluating the effectiveness of each action by contrasting it with an alternative perspective.
 
-Summary
+#### Summary
 Incorporating DUO into these prompting styles fundamentally changes the nature of the reasoning and decision-making process. By introducing a provider-challenger dynamic at each step, DUO enriches the exploration space, whether it's through sequential thoughts, tree-based exploration, planning with MCTS, or interacting with an external environment. This dual perspective ensures a more thorough examination of potential solutions and paths, potentially leading to more innovative and robust outcomes.
 
 #### Conclusion
