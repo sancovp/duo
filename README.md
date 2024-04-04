@@ -21,8 +21,6 @@ Metaprogrammatic and Programmatic Chains: The workflow utilizes metaprogrammatic
 
 Reification of Implicit Processes: Interestingly, the DUO framework essentially makes explicit and refines the implicit process that occurs whenever an input is provided to an LLM. The input triggers a convergence chain within the LLM, leading to the generation of an output sequence. DUO reconstructs and refines this process, leveraging the implicit entity web and hyperparameters to guide the generation towards a more precise and contextually relevant output.
 
-![DUO](https://github.com/sancovp/duo/blob/main/ariadne%26poimandres.png)
-
 #### Implications of the DUO Process
 Fine-Grained Control: The ability to establish and adjust hyperparameters early in the workflow allows for extremely fine-grained control over the knowledge generation process. This control is crucial for ensuring that the output aligns closely with the desired objectives and constraints.
 
@@ -72,3 +70,6 @@ Incorporating DUO into these prompting styles fundamentally changes the nature o
 
 #### Conclusion
 The DUO framework represents a significant advancement in the use of LLMs for knowledge refinement and generation. By explicitly reconstructing and refining the implicit processes triggered by inputs to LLMs, DUO enables a more controlled, nuanced, and adaptable approach to knowledge generation. The establishment of hyperparameters and the provider-challenger dynamic are central to this process, ensuring that the output is not only contextually relevant but also critically evaluated and refined.
+
+![DUO](https://github.com/sancovp/duo/blob/main/ariadne%26poimandres.png)
+
