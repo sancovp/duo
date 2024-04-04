@@ -72,4 +72,4 @@ Incorporating DUO into these prompting styles fundamentally changes the nature o
 The DUO framework represents a significant advancement in the use of LLMs for knowledge refinement and generation. By explicitly reconstructing and refining the implicit processes triggered by inputs to LLMs, DUO enables a more controlled, nuanced, and adaptable approach to knowledge generation. The establishment of hyperparameters and the provider-challenger dynamic are central to this process, ensuring that the output is not only contextually relevant but also critically evaluated and refined.
 
 ![DUO](https://github.com/sancovp/duo/blob/main/ariadne%26poimandres.png)
-
+- Ariadne & Poimandres, OVP (DUO)
