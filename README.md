@@ -4,7 +4,7 @@
 
 The Duo of Dual Space Unifying Operators (DUO) framework introduces a sophisticated approach to knowledge refinement within the context of Large Language Models (LLMs). At its core, DUO leverages a dynamic interplay between provider and challenger archetypes to refine knowledge and generate outputs. This process is not only a testament to the complexity inherent in managing and refining knowledge through LLMs but also showcases the potential for creating highly nuanced and contextually relevant outputs. Let's delve deeper into the fundamental processes within DUO, focusing on the creation of hyperparameters via implicit entity webs and their impact on the knowledge refinement workflow.
 
-[DUO](https://github.com/sancovp/duo/blob/main/duo.png)
+![DUO](https://github.com/sancovp/duo/blob/main/duo.png)
 
 #### The Fundamental Process of DUO
 
@@ -21,7 +21,7 @@ Metaprogrammatic and Programmatic Chains: The workflow utilizes metaprogrammatic
 
 Reification of Implicit Processes: Interestingly, the DUO framework essentially makes explicit and refines the implicit process that occurs whenever an input is provided to an LLM. The input triggers a convergence chain within the LLM, leading to the generation of an output sequence. DUO reconstructs and refines this process, leveraging the implicit entity web and hyperparameters to guide the generation towards a more precise and contextually relevant output.
 
-[DUO](https://github.com/sancovp/duo/blob/main/ariadne%26poimandres.png)
+![DUO](https://github.com/sancovp/duo/blob/main/ariadne%26poimandres.png)
 
 #### Implications of the DUO Process
 Fine-Grained Control: The ability to establish and adjust hyperparameters early in the workflow allows for extremely fine-grained control over the knowledge generation process. This control is crucial for ensuring that the output aligns closely with the desired objectives and constraints.
