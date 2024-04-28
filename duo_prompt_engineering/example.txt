@@ -1,0 +1,1 @@
+[Link to example conversation](https://platform.openai.com/playground/p/QT5d87gs1qCYpunXhxaTuiPs?model=gpt-4-turbo-preview&mode=chat)
