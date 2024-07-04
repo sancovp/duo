@@ -1,0 +1,51 @@
+graph TD
+    A[General Ontology Designer GOD] --> B[Ontology Management]
+    A --> C[Dynamic State Handling]
+    A --> D[Agent Lifecycle Management]
+    A --> E[Self-Configuration]
+    A --> F[Continuous Processing]
+    A --> G[Dual-Loop CICD]
+    A --> H[Command Execution]
+
+    B --> B1[Define Classes]
+    B --> B2[Define Relationships]
+    B --> B3[Update Ontology]
+
+    C --> C1[Initialize State]
+    C --> C2[Process State]
+    C --> C3[ErrorHandling State]
+
+    D --> D1[CodeDeityCurrent]
+    D --> D2[CodeDeityPrototype]
+    D --> D3[CodeDisciple]
+
+    E --> E1[Agent Self-Configuration]
+    E --> E2[Adaptive Processing]
+
+    F --> F1[Execute Tasks]
+    F --> F2[Handle Errors]
+    F --> F3[Provide Feedback]
+
+    G --> G1[High-Level Tasks]
+    G --> G2[Implementation]
+    G --> G3[Feedback Loop]
+
+    H --> H1[Execute Commands]
+    H --> H2[Process Results]
+
+    D1 --> D3
+    G1 --> D1
+    G1 --> D2
+    G2 --> D3
+    G3 --> G1
+
+    subgraph "Dynamic Ontology Management System DOMS"
+        A
+        B
+        C
+        D
+        E
+        F
+        G
+        H
+    end
