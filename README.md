@@ -3,17 +3,57 @@
 
 #### Overview
 
-The Duo of Dual Space Unifying Operators (DUO) framework introduces a sophisticated approach to knowledge refinement within the context of Large Language Models (LLMs). At its core, DUO leverages a dynamic interplay between provider and challenger archetypes to refine knowledge and generate outputs. This process is not only a testament to the complexity inherent in managing and refining knowledge through LLMs but also showcases the potential for creating highly nuanced and contextually relevant outputs. Let's delve deeper into the fundamental processes within DUO, focusing on the creation of hyperparameters via implicit entity webs and their impact on the knowledge refinement workflow. More than anything, DUO is a system of principles that enable intuition of emergent knowledge space in the mind of the observer. This observer role can be given to a secondary rejector LLM Agent or a human (Human-in-the-Loop). This system can be nested infinitely to create any number of layers of DUOs for any domain, creating any chain of abstractions either specifying or generalizing, within an ontological GAN-style conversation paradigm of dual archetypes. There are always three roles: Ariadne (Challenger, Dual 1), Poimandres (Provider, Dual 2), and the Observer View-Point (Dual Unifier, Dual 3) and they crucially must exist within the same information "place", which is a reified information space designated inside of an allegory all three are privvy to, which creates a programming language inside of a controlled domain, where the domain is the query and the implicit properties that must a priori be part_of the deliverable on that basis, and the game is to exploit them before exploration can occur. In other words, the game is to make the most coherent, strongest, direct, and correctly compounding chains possible. The original way DUO worked was:
+The Duo of Dual Space Unifying Operators (DUO) framework introduces a sophisticated approach to knowledge refinement within the context of Large Language Models (LLMs). At its core, DUO leverages a dynamic interplay between provider and challenger archetypes to refine knowledge and generate outputs. This process is not only a testament to the complexity inherent in managing and refining knowledge through LLMs but also showcases the potential for creating highly nuanced and contextually relevant outputs. Let's delve deeper into the fundamental processes within DUO, focusing on the creation of hyperparameters via implicit entity webs and their impact on the knowledge refinement workflow. More than anything, DUO is a system of principles that enable intuition of emergent knowledge space in the mind of the observer. This observer role can be given to a secondary rejector LLM Agent or a human (Human-in-the-Loop). This system can be nested infinitely to create any number of layers of DUOs for any domain, creating any chain of abstractions either specifying or generalizing, within an ontological GAN-style conversation paradigm of dual archetypes. There are always three roles: Ariadne (Challenger, Dual 1), Poimandres (Provider, Dual 2), and the Observer View-Point (Dual Unifier, Dual 3) and they crucially must exist within the same information "place", which is a reified information space designated inside of an allegory all three are privvy to, which creates a programming language inside of a controlled domain, where the domain is the query and the implicit properties that must a priori be part_of the deliverable on that basis, and the game is to exploit them before exploration can occur. In other words, the game is to make the most coherent, strongest, direct, and correctly compounding chains possible. 
 
-Ariadne = User
-Poimandres = Assistant
+#### Foundations of DUO
+A Duo of Dual Space Unifying Operators (DUO) is a dual process through which an Observer View-Point (OVP) is instantiated. Let's break down this concept:
 
-- When User is replaced by UserProxy, it remains as Ariadne.
-- But now, technically, Poimandres is talking to Poimandres because Ariadne is talking to Poimandres|Ariadne, which means Assistant is simultaneously acting as Poimandres for the User and Ariadne for itself in a separate chat
+DUO Framework
+
+Dual Process:
+Provider (Poimandres): Generates potential knowledge entities or solutions.
+Challenger (Ariadne): Critically evaluates the Provider's output, offering alternative perspectives or counterpoints.
+
+Interaction Dynamics:
+
+Chat 1: user|ariadne|poimandres -input-> poimandres|ariadne
+Here, the interaction is initiated by the user (Ariadne) towards the assistant (Poimandres), with the context shared between the two.
+
+Chat 2: poimandres|ariadne -input-> poimandres
+The assistant (Poimandres), now informed by the dual perspective of itself and Ariadne, further processes the input.
+
+OVP (Observer View-Point)
+
+The OVP is the meta-perspective that encompasses both the individual interactions and the collective understanding derived from them.
+It integrates:
+The combined perspective of poimandres|ariadne + poimandres.
+The dynamic interaction within user|ariadne|poimandres + poimandres|ariadne.
+
+Instantiation of OVP through DUO
+
+Implicit Understanding:
+Captures the emergent properties and fluid, dynamic nature of interactions between roles.
+Recognizes the recursive dialogue and the dual perspectives.
+
+Explicit Methodology:
+Provides structure through defined roles (Provider and Challenger) and processes (hyperparameters, metaprogrammatic chains).
+Guides and refines the implicit interactions systematically.
+
+Unification of Dual Space
+
+Implicit Interactions:
+Focus on the high-level, conceptual understanding and the emergent behavior from role dynamics.
+
+Explicit Framework:
+Lays out specific mechanisms, roles, and structures to control and direct these interactions.
+
+Summary
+In essence, a DUO represents a dual process where the dynamic interplay between Provider and Challenger roles leads to the creation and refinement of knowledge. This dual interaction framework, encompassing both implicit and explicit elements, results in the instantiation of an OVP. The OVP serves as the unified space integrating both perspectives and processes, enabling a robust and contextually relevant output.
+
 
 ![DUO](https://github.com/sancovp/duo/blob/main/duo.png)
 
-#### The Fundamental Process of DUO
+#### The Process of DUO
 
 Initial Input and Entity Web Creation: The process begins with an initial input to the LLM, which triggers the creation of an implicit entity web. This web consists of interconnected entities and concepts derived from the input, serving as the foundation for the subsequent provider-challenger dynamic.
 
